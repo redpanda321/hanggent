@@ -120,7 +120,7 @@ For organizations requiring maximum security, customization, and control:
 - **Scalable Enterprise Deployment**
 - **Negotiated SLAs** & implementation services
 
-📧 For further details, please contact us at [info@hanggent.ai](mailto:info@hanggent.ai).
+📧 For further details, please contact us at [redpanda321@gmail.com](mailto:redpanda321@gmail.com).
 
 ### ☁️ Cloud Version
 
@@ -323,59 +323,3 @@ Made with [contrib.rocks](https://contrib.rocks).
 ## **📄 Open Source License**
 
 This repository is licensed under the [Apache License 2.0](LICENSE).
-
-## 🌐 Community & Contact
-For more information please contact info@hanggent.ai
-
-- **GitHub Issues:** Report bugs, request features, and track development. [Submit an issue][github-issue-link]
-
-- **Discord:** Get real-time support, chat with the community, and stay updated. [Join us](https://discord.com/invite/CNcNpquyDc)
-
-- **X (Twitter):** Follow for updates, AI insights, and key announcements. [Follow us][social-x-link]
-
-- **WeChat Community:** Scan the QR code below to add our WeChat assistant, and join our WeChat community group.
-
-<div align="center">
-  <img src="./src/assets/wechat_qr.jpg" width="200" style="display: inline-block; margin: 10px;">
-</div>
-
-
-
-<!-- LINK GROUP -->
-<!-- Social -->
-[discord-url]: https://discord.com/invite/CNcNpquyDc
-[discord-image]: https://img.shields.io/discord/1082486657678311454?logo=discord&labelColor=%20%235462eb&logoColor=%20%23f5f5f5&color=%20%235462eb
-
-[hanggent-github]: https://github.com/hanggent-ai/hanggent
-[github-star]: https://img.shields.io/github/stars/hanggent-ai?color=F5F4F0&labelColor=gray&style=plastic&logo=github
-
-[contribution-link]: https://github.com/hanggent-ai/hanggent/blob/main/CONTRIBUTING.md
-
-[social-x-link]: https://x.com/Hanggent_AI
-[social-x-shield]: https://img.shields.io/badge/-%40Hanggent_AI-white?labelColor=gray&logo=x&logoColor=white&style=plastic
-
-[hanggent-download]: https://www.hangent.com/download
-[download-shield]: https://img.shields.io/badge/Download%20Hanggent-363AF5?style=plastic
-
-[join-us]:https://hanggent-ai.notion.site/hanggent-ai-careers
-[join-us-image]:https://img.shields.io/badge/Join%20Us-yellow?style=plastic
-
-[hanggent-site]: https://www.hangent.com
-[docs-site]: https://docs.hanggent.ai
-[github-issue-link]: https://github.com/hanggent-ai/hanggent/issues
-
-<!-- marketing -->
-[image-seperator]: https://hanggent-ai.github.io/.github/assets/seperator.png 
-[image-head]: https://hanggent-ai.github.io/.github/assets/head.png 
-[image-public-beta]: https://hanggent-ai.github.io/.github/assets/banner.png
-[image-star-us]: https://hanggent-ai.github.io/.github/assets/star-us.gif
-[image-opensource]: https://hanggent-ai.github.io/.github/assets/opensource.png
-[image-wechat]: https://hanggent-ai.github.io/.github/assets/wechat.png
-[image-join-us]: https://hanggent-ai.github.io/.github/assets/join_us.png
-
-<!-- feature -->
-[image-workforce]: https://hanggent-ai.github.io/.github/assets/feature_dynamic_workforce.gif
-[image-human-in-the-loop]: https://hanggent-ai.github.io/.github/assets/feature_human_in_the_loop.gif
-[image-customise-workers]: https://hanggent-ai.github.io/.github/assets/feature_customise_workers.gif
-[image-add-mcps]: https://hanggent-ai.github.io/.github/assets/feature_add_mcps.gif
-[image-local-model]: https://hanggent-ai.github.io/.github/assets/feature_local_model.gif

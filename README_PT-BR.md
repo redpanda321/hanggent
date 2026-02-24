@@ -119,7 +119,7 @@ Para organizações que requerem máxima segurança, personalização e controle
 - **Implantação Empresarial Escalável**
 - **SLAs Negociados** e serviços de implementação
 
-📧 Para mais detalhes, entre em contato conosco em [info@hanggent.ai](mailto:info@hanggent.ai).
+📧 Para mais detalhes, entre em contato conosco em [redpanda321@gmail.com](mailto:redpanda321@gmail.com).
 
 ### ☁️ Versão em Nuvem
 
@@ -314,23 +314,6 @@ Feito com [contrib.rocks](https://contrib.rocks).
 
 Este repositório é licenciado sob a [Licença Apache 2.0](LICENSE).
 
-## 🌐 Comunidade & Contato
-Para mais informações, entre em contato pelo e-mail info@hanggent.ai
-
-- **GitHub Issues:** Relate bugs, solicite funcionalidades e acompanhe o desenvolvimento. [Enviar uma issue][github-issue-link]
-
-- **Discord:** Obtenha suporte em tempo real, converse com a comunidade e fique atualizado. [Junte-se a nós](https://discord.com/invite/CNcNpquyDc)
-
-- **X (Twitter):** Siga para atualizações, insights de IA e anúncios importantes. [Siga-nos][social-x-link]
-
-- **Comunidade WeChat:** Escaneie o QR code abaixo para adicionar nosso assistente no WeChat e entrar no grupo da comunidade WeChat.
-
-<div align="center">
-  <img src="./src/assets/wechat_qr.jpg" width="200" style="display: inline-block; margin: 10px;">
-</div>
-
-
-
 <!-- LINK GROUP -->
 <!-- Social -->
 [discord-url]: https://discord.com/invite/CNcNpquyDc
@@ -347,16 +330,16 @@ Para mais informações, entre em contato pelo e-mail info@hanggent.ai
 [hanggent-download]: https://www.hangent.com/download
 [download-shield]: https://img.shields.io/badge/Download%20Hanggent-363AF5?style=plastic
 
-[join-us]:https://hanggent-ai.notion.site/hanggent-ai-careers
-[join-us-image]:https://img.shields.io/badge/Join%20Us-yellow?style=plastic
+[join-us]: https://www.hangent.com/careers
+[join-us-image]: https://img.shields.io/badge/Join%20Us-yellow?style=plastic
 
 [hanggent-site]: https://www.hangent.com
-[docs-site]: https://docs.hanggent.ai
+[docs-site]: https://www.hangent.com/docs
 [github-issue-link]: https://github.com/hanggent-ai/hanggent/issues
 
 <!-- marketing -->
-[image-seperator]: https://hanggent-ai.github.io/.github/assets/seperator.png 
-[image-head]: https://hanggent-ai.github.io/.github/assets/head.png 
+[image-seperator]: https://hanggent-ai.github.io/.github/assets/seperator.png
+[image-head]: https://hanggent-ai.github.io/.github/assets/head.png
 [image-public-beta]: https://hanggent-ai.github.io/.github/assets/banner.png
 [image-star-us]: https://hanggent-ai.github.io/.github/assets/star-us.gif
 [image-opensource]: https://hanggent-ai.github.io/.github/assets/opensource.png

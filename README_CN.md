@@ -129,7 +129,7 @@ npm run dev
 - **可扩展的企业部署**  
 - **协商的 SLA** 和实施服务  
 
-📧 更多详情，请联系 [info@hanggent.ai](mailto:info@hanggent.ai)。
+📧 更多详情，请联系 [redpanda321@gmail.com](mailto:redpanda321@gmail.com)。
 
 ## **✨ 核心功能**
 通过 Hanggent 的强大功能释放卓越生产力的全部潜力——专为无缝集成、智能任务执行和无边界自动化而设计。
@@ -303,23 +303,6 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 本仓库采用 [**Hanggent 开源许可证**](LICENSE)，基于 Apache 2.0 并附加额外条款。
 
-## 🌐 社区与联系
-更多信息请联系 info@hanggent.ai
-
-- **GitHub Issues：** 报告错误、请求功能并跟踪开发进度。[提交问题][github-issue-link]  
-
-- **Discord：** 获取实时支持、与社区交流并保持更新。[加入我们](https://discord.com/invite/CNcNpquyDc)  
-
-- **X (Twitter)：** 关注更新、AI 见解和重要公告。[关注我们][social-x-link]  
-
-- **微信社区：** 扫描下方二维码添加我们的微信助手，加入我们的微信社区群。
-
-<div align="center">
-  <img src="./src/assets/wechat_qr.jpg" width="200" style="display: inline-block; margin: 10px;">
-</div>
-
-
-
 <!-- LINK GROUP -->
 <!-- Social -->
 [discord-url]: https://discord.com/invite/CNcNpquyDc
@@ -336,16 +319,16 @@ Made with [contrib.rocks](https://contrib.rocks).
 [hanggent-download]: https://www.hangent.com/download
 [download-shield]: https://img.shields.io/badge/Download%20Hanggent-363AF5?style=plastic
 
-[join-us]:https://hanggent-ai.notion.site/hanggent-ai-careers
-[join-us-image]:https://img.shields.io/badge/Join%20Us-yellow?style=plastic
+[join-us]: https://www.hangent.com/careers
+[join-us-image]: https://img.shields.io/badge/Join%20Us-yellow?style=plastic
 
 [hanggent-site]: https://www.hangent.com
-[docs-site]: https://docs.hanggent.ai
+[docs-site]: https://www.hangent.com/docs
 [github-issue-link]: https://github.com/hanggent-ai/hanggent/issues
 
 <!-- marketing -->
-[image-seperator]: https://hanggent-ai.github.io/.github/assets/seperator.png 
-[image-head]: https://hanggent-ai.github.io/.github/assets/head.png 
+[image-seperator]: https://hanggent-ai.github.io/.github/assets/seperator.png
+[image-head]: https://hanggent-ai.github.io/.github/assets/head.png
 [image-public-beta]: https://hanggent-ai.github.io/.github/assets/banner.png
 [image-star-us]: https://hanggent-ai.github.io/.github/assets/star-us.gif
 [image-opensource]: https://hanggent-ai.github.io/.github/assets/opensource.png
@@ -358,3 +341,4 @@ Made with [contrib.rocks](https://contrib.rocks).
 [image-customise-workers]: https://hanggent-ai.github.io/.github/assets/feature_customise_workers.gif
 [image-add-mcps]: https://hanggent-ai.github.io/.github/assets/feature_add_mcps.gif
 [image-local-model]: https://hanggent-ai.github.io/.github/assets/feature_local_model.gif
+

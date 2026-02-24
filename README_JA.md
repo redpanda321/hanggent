@@ -118,7 +118,7 @@ npm run dev
 - **スケーラブルなエンタープライズデプロイメント**
 - **交渉可能なSLA** & 導入サービス
 
-📧 詳細については、[info@hanggent.ai](mailto:info@hanggent.ai) までお問い合わせください。
+📧 詳細については、[redpanda321@gmail.com](mailto:redpanda321@gmail.com) までお問い合わせください。
 
 ### ☁️ クラウドバージョン
 
@@ -309,28 +309,6 @@ Documentsディレクトリにmydocsというフォルダがあります。ス�
 
 Made with [contrib.rocks](https://contrib.rocks).
 
-<br>
-
-## **📄 オープンソースライセンス**
-
-このリポジトリは[Apache License 2.0](LICENSE)の下でライセンスされています。
-
-## 🌐 コミュニティ & お問い合わせ
-詳細については info@hanggent.ai までお問い合わせください
-
-- **GitHub Issues:** バグ報告、機能リクエスト、開発の追跡。[Issueを提出][github-issue-link]
-
-- **Discord:** リアルタイムサポート、コミュニティとのチャット、最新情報の入手。[参加する](https://discord.com/invite/CNcNpquyDc)
-
-- **X（Twitter）:** 更新情報、AIインサイト、重要なお知らせをフォロー。[フォローする][social-x-link]
-
-- **WeChatコミュニティ:** 以下のQRコードをスキャンしてWeChatアシスタントを追加し、WeChatコミュニティグループに参加してください。
-
-<div align="center">
-  <img src="./src/assets/wechat_qr.jpg" width="200" style="display: inline-block; margin: 10px;">
-</div>
-
-
 
 <!-- LINK GROUP -->
 <!-- Social -->
@@ -348,11 +326,11 @@ Made with [contrib.rocks](https://contrib.rocks).
 [hanggent-download]: https://www.hangent.com/download
 [download-shield]: https://img.shields.io/badge/Download%20Hanggent-363AF5?style=plastic
 
-[join-us]:https://hanggent-ai.notion.site/hanggent-ai-careers
-[join-us-image]:https://img.shields.io/badge/Join%20Us-yellow?style=plastic
+[join-us]: https://www.hangent.com/careers
+[join-us-image]: https://img.shields.io/badge/Join%20Us-yellow?style=plastic
 
 [hanggent-site]: https://www.hangent.com
-[docs-site]: https://docs.hanggent.ai
+[docs-site]: https://www.hangent.com/docs
 [github-issue-link]: https://github.com/hanggent-ai/hanggent/issues
 
 <!-- marketing -->
