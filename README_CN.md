@@ -12,10 +12,6 @@
 [![][github-star]][hanggent-github]
 [![][social-x-shield]][social-x-link]
 [![][discord-image]][discord-url]<br>
-[![Reddit][reddit-image]][reddit-url]
-[![Wechat][wechat-image]][wechat-url]
-[![][sponsor-shield]][sponsor-link]
-[![][built-with-camel]][camel-github]
 [![][join-us-image]][join-us]
 
 </div>
@@ -28,9 +24,9 @@
 </div>
 <br/>
 
-**Hanggent** 是全球首个 **多智能体工作流** 桌面应用程序，帮助您构建、管理和部署定制化的 AI 工作团队，将最复杂的工作流程转化为自动化任务。
+**Hanggent** 是开源的 **多智能体工作流** 桌面应用程序，帮助您构建、管理和部署定制化的 AI 工作团队，将最复杂的工作流程转化为自动化任务。
 
-基于 [CAMEL-AI][camel-site] 广受赞誉的开源项目，我们的系统引入了 **多智能体工作流**，通过并行执行、定制化和隐私保护 **提升生产力**。
+我们的系统引入了 **多智能体工作流**，通过并行执行、定制化和隐私保护 **提升生产力**。
 
 ### ⭐ 100% 开源 - 🥇 本地部署 - 🏆 MCP 集成
 
@@ -97,7 +93,7 @@
 [![image-public-beta]][hanggent-download]
 
 <div align="right">
-<a href="https://www.hangent.com">Get started at Hanggent.ai →</a>
+<a href="https://www.hangent.com/download">Get started at Hangent.com →</a>
 </div>
 
 ### 🏠 自托管（社区版）
@@ -185,7 +181,7 @@ Hanggent 完全开源。您可以下载、检查和修改代码，确保透明�
 ### 1. 棕榈泉网球旅行行程与 Slack 摘要 [回放 ▶️](https://www.hangent.com/download?share_token=IjE3NTM0MzUxNTEzMzctNzExMyI.aIeysw.MUeG6ZcBxI1GqvPDvn4dcv-CDWw__1753435151337-7113)
 
 <details>
-<summary><strong>提示：</strong> <kbd>我们是两个网球爱好者，想去观看 2026 年棕榈泉的网球比赛... <kbd></summary>
+<summary><strong>提示：</strong> <kbd>我们是两个网球爱好者，想去观看 2026 年棕榈泉的网球比赛... </kbd></summary>
 <br>
 我们是两个网球爱好者，想去观看 2026 年棕榈泉的网球比赛。我住在旧金山——请准备一个详细的行程，包括航班、酒店、为期 3 天的活动安排——围绕半决赛/决赛的时间。我们喜欢徒步、素食和 Spa。预算为 5,000 美元。行程应是一个详细的时间表，包括时间、活动、费用、其他细节，以及购买门票/预订的链接（如适用）。完成后，请生成一份关于此次旅行的 HTML 报告；编写此计划的摘要，并将文本摘要和报告 HTML 链接发送到 Slack #tennis-trip-sf 频道。
 </details>
@@ -195,7 +191,7 @@ Hanggent 完全开源。您可以下载、检查和修改代码，确保透明�
 ### 2. 从 CSV 银行数据生成 Q2 报告 [回放 ▶️](https://www.hangent.com/download?share_token=IjE3NTM1MjY4OTE4MDgtODczOSI.aIjJmQ.WTdoX9mATwrcBr_w53BmGEHPo8U__1753526891808-8739)
 
 <details>
-<summary><strong>提示：</strong> <kbd>请根据我桌面上的银行转账记录文件 bank_transacation.csv... <kbd></summary>
+<summary><strong>提示：</strong> <kbd>请根据我桌面上的银行转账记录文件 bank_transacation.csv... </kbd></summary>
 <br>
 请根据我桌面上的银行转账记录文件 bank_transacation.csv，帮我准备一份 Q2 财务报表，生成带图表的 HTML 报告，向投资者展示我们的支出情况。
 </details>
@@ -205,7 +201,7 @@ Hanggent 完全开源。您可以下载、检查和修改代码，确保透明�
 ### 3. 英国医疗市场调研报告自动化 [回放 ▶️](https://www.hangent.com/download?share_token=IjE3NTMzOTM1NTg3OTctODcwNyI.aIey-Q.Jh9QXzYrRYarY0kz_qsgoj3ewX0__1753393558797-8707)
 
 <details>
-<summary><strong>提示：</strong> <kbd>分析英国医疗保健行业以支持我下一家公司的规划... <kbd></summary>
+<summary><strong>提示：</strong> <kbd>分析英国医疗保健行业以支持我下一家公司的规划... </kbd></summary>
 <br>
 分析英国医疗保健行业以支持我下一家公司的规划。提供全面的市场概览，包括当前趋势、增长预测和相关法规。识别市场中5-10个主要机会、缺口或服务不足的细分领域。将所有发现整理成结构清晰、专业的HTML报告。完成后，向Slack的#hanggentr-product-test频道发送消息，以便与团队成员对齐报告内容。。
 </details>
@@ -215,7 +211,7 @@ Hanggent 完全开源。您可以下载、检查和修改代码，确保透明�
 ### 4. 德国电动滑板市场可行性 [回放 ▶️](https://www.hangent.com/download?share_token=IjE3NTM2NTI4MjY3ODctNjk2Ig.aIjGiA.t-qIXxk_BZ4ENqa-yVIm0wMVyXU__1753652826787-696)
 
 <details>
-<summary><strong>提示：</strong> <kbd>我们是一家生产高端电动滑板的公司... <kbd></summary>
+<summary><strong>提示：</strong> <kbd>我们是一家生产高端电动滑板的公司... </kbd></summary>
 <br>
 我们是一家生产高端电动滑板的公司，正在考虑进入德国市场。请为我准备一份详细的市场进入可行性报告。报告需涵盖以下方面：1. 市场规模与法规；2. 消费者画像；3. 渠道与分销；4. 成本与定价；5. 综合报告与演示。
 </details>
@@ -225,9 +221,9 @@ Hanggent 完全开源。您可以下载、检查和修改代码，确保透明�
 ### 5. 多智能体产品发布的 SEO 审计 [回放 ▶️](https://www.hangent.com/download?share_token=IjE3NTM2OTk5NzExNDQtNTY5NiI.aIex0w.jc_NIPmfIf9e3zGt-oG9fbMi3K4__1753699971144-5696)
 
 <details>
-<summary><strong>提示：</strong> <kbd>为了支持我们新的多智能体产品发布... <kbd></summary>
+<summary><strong>提示：</strong> <kbd>为了支持我们新的多智能体产品发布... </kbd></summary>
 <br>
-为了支持我们新的多智能体产品发布，请对我们的官方网站 (https://www.camel-ai.org/) 进行全面的 SEO 审计，并提供带有可操作建议的详细优化报告。
+为了支持我们新的多智能体产品发布，请对我们的官方网站 (https://www.hangent.com) 进行全面的 SEO 审计，并提供带有可操作建议的详细优化报告。
 </details>
 
 <br>
@@ -235,17 +231,17 @@ Hanggent 完全开源。您可以下载、检查和修改代码，确保透明�
 ### 6. 识别下载文件夹中的重复文件 [回放 ▶️](https://www.hangent.com/download?share_token=IjE3NTM3NjAzODgxNzEtMjQ4Ig.aIhKLQ.epOG--0Nj0o4Bqjtdqm9OZdaqRQ__1753760388171-248)
 
 <details>
-<summary><strong>提示：</strong> <kbd>我的 Documents 目录中有一个名为 mydocs 的文件夹... <kbd></summary>
+<summary><strong>提示：</strong> <kbd>我的 Documents 目录中有一个名为 mydocs 的文件夹... </kbd></summary>
 <br>
 我的 Documents 目录中有一个名为 mydocs 的文件夹。请扫描并识别所有完全或近似重复的文件——包括内容相同、文件大小或格式相同的文件（即使文件名或扩展名不同）。清晰列出它们，按相似性分组。
 </details>
 
 <br>
 
-### 7. 添加签名到 PDF [Replay ▶️](https://www.hangent.com/download?share_token=IjE3NTQwOTU0ODM0NTItNTY2MSI.aJCHrA.Mg5yPOFqj86H_GQvvRNditzepXc__1754095483452-5661)
+### 7. 添加签名到 PDF [回放 ▶️](https://www.hangent.com/download?share_token=IjE3NTQwOTU0ODM0NTItNTY2MSI.aJCHrA.Mg5yPOFqj86H_GQvvRNditzepXc__1754095483452-5661)
 
 <details>
-<summary><strong>提示:</strong> <kbd>请将此签名图片添加到 PDF 中的签名区域 ... <kbd></summary>
+<summary><strong>提示:</strong> <kbd>请将此签名图片添加到 PDF 中的签名区域 ... </kbd></summary>
 <br>
 请将此签名图片添加到 PDF 中的签名区域。你可以安装命令行工具 “tesseract”（该工具通过 OCR 技术可可靠定位“签名区域”），以帮助完成此任务。
 </details>
@@ -303,10 +299,6 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 <br>
 
-## [❤️ 赞助][sponsor-link]
-
-Hanggent 基于 [CAMEL-AI.org][camel-ai-org-github] 的研究和基础设施构建。[赞助 CAMEL-AI.org][sponsor-link] 将使 `Hanggent` 变得更好。
-
 ## **📄 开源许可证**
 
 本仓库采用 [**Hanggent 开源许可证**](LICENSE)，基于 Apache 2.0 并附加额外条款。
@@ -333,27 +325,13 @@ Hanggent 基于 [CAMEL-AI.org][camel-ai-org-github] 的研究和基础设施构�
 [discord-url]: https://discord.com/invite/CNcNpquyDc
 [discord-image]: https://img.shields.io/discord/1082486657678311454?logo=discord&labelColor=%20%235462eb&logoColor=%20%23f5f5f5&color=%20%235462eb
 
-[built-with-camel]:https://img.shields.io/badge/-Built--with--CAMEL-4C19E8.svg?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ4IiBoZWlnaHQ9IjI3MiIgdmlld0JveD0iMCAwIDI0OCAyNzIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik04LjgzMTE3IDE4LjU4NjVMMCAzMC44MjY3QzUuNDY2OTIgMzUuMDQzMiAxNS4xMzkxIDM4LjgyNTggMjQuODExNCAzNi4yOTU5QzMwLjY5ODggNDAuOTM0MSAzOS42NzAyIDQwLjIzMTMgNDQuMTU1OSA0MC4wOTA4QzQzLjQ1NSA0Ny4zOTk0IDQyLjQ3MzcgNzAuOTU1OCA0NC4xNTU5IDEwNi43MTJDNDUuODM4IDE0Mi40NjggNzEuNzcwOCAxNjYuODY4IDg0LjUyNjkgMTc0LjU5OEw3Ni4wMDAyIDIyMEw4NC41MjY5IDI3MkgxMDguOTE4TDk4LjAwMDIgMjIwTDEwOC45MTggMTc0LjU5OEwxMjkuOTQ0IDI3MkgxNTQuNzU2TDEzNC4xNSAxNzQuNTk4SDE4Ny4xMzdMMTY2LjUzMSAyNzJIMTkxLjc2M0wyMTIuMzY5IDE3NC41OThMMjI2IDIyMEwyMTIuMzY5IDI3MkgyMzcuNjAxTDI0OC4wMDEgMjIwTDIzNy4xOCAxNzQuNTk4QzIzOS4yODMgMTY5LjExNyAyNDAuNDAxIDE2Ni45NzYgMjQxLjgwNiAxNjEuMTA1QzI0OS4zNzUgMTI5LjQ4MSAyMzUuMDc3IDEwMy45MDEgMjI2LjY2NyA5NC40ODRMMjA2LjQ4MSA3My44MjNDMTk3LjY1IDY0Ljk2ODMgMTgyLjUxMSA2NC41NDY3IDE3Mi44MzkgNzIuNTU4MUMxNjUuNzI4IDc4LjQ0NzcgMTYxLjcwMSA3OC43NzI3IDE1NC43NTYgNzIuNTU4MUMxNTEuODEyIDcwLjAyODEgMTQ0LjUzNSA2MS40ODg5IDEzNC45OTEgNTMuNTgzN0MxMjUuMzE5IDQ1LjU3MjMgMTA4LjQ5NyA0OC45NDU1IDEwMi4xODkgNTUuNjkxOUw3My41OTMxIDg0LjM2NDRWNy42MjM0OUw3OS4xMjczIDBDNjAuOTA0MiAzLjY1NDMzIDIzLjgwMjEgOS41NjMwOSAxOS43NjUgMTAuNTc1MUMxNS43Mjc5IDExLjU4NyAxMC43OTM3IDE2LjMzNzcgOC44MzExNyAxOC41ODY1WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTQzLjIwMzggMTguNzE4N0w0OS4wOTEyIDEzLjA0OTNMNTQuOTc4NyAxOC43MTg3TDQ5LjA5MTIgMjQuODI0Mkw0My4yMDM4IDE4LjcxODdaIiBmaWxsPSIjNEMxOUU4Ii8+Cjwvc3ZnPgo=
-
 [hanggent-github]: https://github.com/hanggent-ai/hanggent
 [github-star]: https://img.shields.io/github/stars/hanggent-ai?color=F5F4F0&labelColor=gray&style=plastic&logo=github
-[camel-ai-org-github]: https://github.com/camel-ai
 
-[camel-github]: https://github.com/camel-ai/camel
-[hanggent-github]: https://github.com/hanggent-ai/hanggent
-[contribution-link]: https:/github.com/hanggent-ai/hanggent/blob/master/CONTRIBUTING.md
+[contribution-link]: https://github.com/hanggent-ai/hanggent/blob/main/CONTRIBUTING.md
 
 [social-x-link]: https://x.com/Hanggent_AI
 [social-x-shield]: https://img.shields.io/badge/-%40Hanggent_AI-white?labelColor=gray&logo=x&logoColor=white&style=plastic
-
-[reddit-url]: https://www.reddit.com/r/CamelAI/
-[reddit-image]: https://img.shields.io/reddit/subreddit-subscribers/CamelAI?style=plastic&logo=reddit&label=r%2FCAMEL&labelColor=white
-
-[wechat-url]: https://ghli.org/camel/wechat.png
-[wechat-image]: https://img.shields.io/badge/WeChat-CamelAIOrg-brightgreen?logo=wechat&logoColor=white
-
-[sponsor-link]: https://github.com/sponsors/camel-ai
-[sponsor-shield]: https://img.shields.io/badge/-Sponsor%20CAMEL--AI-1d1d1d?logo=github&logoColor=white&style=plastic
 
 [hanggent-download]: https://www.hangent.com/download
 [download-shield]: https://img.shields.io/badge/Download%20Hanggent-363AF5?style=plastic
@@ -361,8 +339,6 @@ Hanggent 基于 [CAMEL-AI.org][camel-ai-org-github] 的研究和基础设施构�
 [join-us]:https://hanggent-ai.notion.site/hanggent-ai-careers
 [join-us-image]:https://img.shields.io/badge/Join%20Us-yellow?style=plastic
 
-<!-- camel & hanggent -->
-[camel-site]: https://www.camel-ai.org
 [hanggent-site]: https://www.hangent.com
 [docs-site]: https://docs.hanggent.ai
 [github-issue-link]: https://github.com/hanggent-ai/hanggent/issues
@@ -374,7 +350,7 @@ Hanggent 基于 [CAMEL-AI.org][camel-ai-org-github] 的研究和基础设施构�
 [image-star-us]: https://hanggent-ai.github.io/.github/assets/star-us.gif
 [image-opensource]: https://hanggent-ai.github.io/.github/assets/opensource.png
 [image-wechat]: https://hanggent-ai.github.io/.github/assets/wechat.png
-[image-join-us]: https://camel-ai.github.io/camel_asset/graphics/join_us.png
+[image-join-us]: https://hanggent-ai.github.io/.github/assets/join_us.png
 
 <!-- feature -->
 [image-workforce]: https://hanggent-ai.github.io/.github/assets/feature_dynamic_workforce.gif

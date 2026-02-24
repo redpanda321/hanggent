@@ -12,10 +12,6 @@
 [![][github-star]][hanggent-github]
 [![][social-x-shield]][social-x-link]
 [![][discord-image]][discord-url]<br>
-[![Reddit][reddit-image]][reddit-url]
-[![Wechat][wechat-image]][wechat-url]
-[![][sponsor-shield]][sponsor-link]
-[![][built-with-camel]][camel-github]
 [![][join-us-image]][join-us]
 
 </div>
@@ -30,14 +26,14 @@
 
 **Hanggent** is the open source cowork desktop application, empowering you to build, manage, and deploy a custom AI workforce that can turn your most complex workflows into automated tasks. 
 
-Built on [CAMEL-AI][camel-site]'s acclaimed open-source project, our system introduces a **Multi-Agent Workforce** that **boosts productivity** through parallel execution, customization, and privacy protection.
+Our system introduces a **Multi-Agent Workforce** that **boosts productivity** through parallel execution, customization, and privacy protection.
 
 ### ⭐ 100% Open Source - 🥇 Local Deployment - 🏆 MCP Integration
 
 - ✅ **Zero Setup** - No technical configuration required
 - ✅ **Multi-Agent Coordination** - Handle complex multi-agent workflows
 - ✅ **Enterprise Feature** - SSO/Access control
-- ✅ **Local Deploymen**t
+- ✅ **Local Deployment**
 - ✅ **Open Source**
 - ✅ **Custom Model Support**
 - ✅ **MCP Integration**
@@ -70,7 +66,7 @@ Built on [CAMEL-AI][camel-site]'s acclaimed open-source project, our system intr
 - [🗺️ Roadmap](#-roadmap)
 - [📖 Contributing](#-contributing)
   - [Main Contributors](#main-contributors)
-  - [Distinguished amabssador](#distinguished-amabssador)
+  - [Distinguished Ambassador](#distinguished-ambassador)
 - [Ecosystem](#ecosystem)
 - [📄 Open Source License](#-open-source-license)
 - [🌐 Community & contact](#-community--contact)
@@ -130,8 +126,6 @@ For organizations requiring maximum security, customization, and control:
 
 For teams who prefer managed infrastructure, we also offer a cloud platform. The fastest way to experience Hanggent's multi-agent AI capabilities without setup complexity. We'll host the models, APIs, and cloud storage, ensuring Hanggent runs flawlessly.
 
-> Maintainer note: manual seeding only is enforced in [staging workflow](../.github/workflows/deploy-staging.yml) and [production workflow](../.github/workflows/deploy-vultr-k8s.yml) via `AUTO_SEED_DEFAULT_PROVIDERS='false'` plus verification steps.
-
 - **Instant Access** - Start building multi-agent workflows in minutes.
 - **Managed Infrastructure** - We handle scaling, updates, and maintenance.
 - **Premium Support** - Subscribe and get priority assistance from our engineering team.
@@ -141,7 +135,7 @@ For teams who prefer managed infrastructure, we also offer a cloud platform. The
 [![image-public-beta]][hanggent-download]
 
 <div align="right">
-<a href="https://www.hangent.com/download">Get started at Hanggent.ai →</a>
+<a href="https://www.hangent.com/download">Get started at Hangent.com →</a>
 </div>
 
 ## **✨ Key features**
@@ -199,7 +193,7 @@ Hanggent supports multilingual UI with language selection and system default det
 ### 1. Palm Springs Tennis Trip Itinerary with Slack Summary [Replay ▶️](https://www.hangent.com/download?share_token=IjE3NTM0MzUxNTEzMzctNzExMyI.aIeysw.MUeG6ZcBxI1GqvPDvn4dcv-CDWw__1753435151337-7113)
 
 <details>
-<summary><strong>Prompt:</strong> <kbd>We are two tennis fans and want to go see the tennis tournament ... <kbd></summary>
+<summary><strong>Prompt:</strong> <kbd>We are two tennis fans and want to go see the tennis tournament ... </kbd></summary>
 <br>
 We are two tennis fans and want to go see the tennis tournament in Palm Springs 2026. I live in SF - please prepare a detailed itinerary with flights, hotels, things to do for 3 days - around the time semifinal/finals are happening. We like hiking, vegan food and spas. Our budget is $5K. The itinerary should be a detailed timeline of time, activity, cost, other details and if applicable a link to buy tickets/make reservations etc. for the item. Some preferences .Spa access would be nice but not necessary. When you finish this task, please generate a html report about this trip; write a summary of this plan and send text summary and report html link to slack #tennis-trip-sf channel.
 </details>
@@ -209,7 +203,7 @@ We are two tennis fans and want to go see the tennis tournament in Palm Springs 
 ### 2. Generate Q2 Report from CSV Bank Data [Replay ▶️](https://www.hangent.com/download?share_token=IjE3NTM1MjY4OTE4MDgtODczOSI.aIjJmQ.WTdoX9mATwrcBr_w53BmGEHPo8U__1753526891808-8739)
 
 <details>
-<summary><strong>Prompt:</strong> <kbd>Please help me prepare a Q2 financial statement based on my bank ... <kbd></summary>
+<summary><strong>Prompt:</strong> <kbd>Please help me prepare a Q2 financial statement based on my bank ... </kbd></summary>
 <br>
 Please help me prepare a Q2 financial statement based on my bank transfer record file bank_transacation.csv in my desktop to a html report with chart to investors how much we have spent.
 </details>
@@ -219,7 +213,7 @@ Please help me prepare a Q2 financial statement based on my bank transfer record
 ### 3. UK Healthcare Market Research Report Automation [Replay ▶️](https://www.hangent.com/download?share_token=IjE3NTMzOTM1NTg3OTctODcwNyI.aIey-Q.Jh9QXzYrRYarY0kz_qsgoj3ewX0__1753393558797-8707)
 
 <details>
-<summary><strong>Prompt:</strong> <kbd>Analyze the UK healthcare industry to support the planning ... <kbd></summary>
+<summary><strong>Prompt:</strong> <kbd>Analyze the UK healthcare industry to support the planning ... </kbd></summary>
 <br>
 Analyze the UK healthcare industry to support the planning of my next company. Provide a comprehensive market overview, including current trends, growth projections, and relevant regulations. Identify the top 5–10 major opportunities, gaps, or underserved segments within the market. Present all findings in a well-structured, professional HTML report. Then send a message to slack #hanggentr-product-test channel when this task is done to align the report content with my teammates.
 </details>
@@ -229,7 +223,7 @@ Analyze the UK healthcare industry to support the planning of my next company. P
 ### 4. German Electric Skateboard Market Feasibility [Replay ▶️](https://www.hangent.com/download?share_token=IjE3NTM2NTI4MjY3ODctNjk2Ig.aIjGiA.t-qIXxk_BZ4ENqa-yVIm0wMVyXU__1753652826787-696)
 
 <details>
-<summary><strong>Prompt:</strong> <kbd>We are a company that produces high-end electric skateboards ... <kbd></summary>
+<summary><strong>Prompt:</strong> <kbd>We are a company that produces high-end electric skateboards ... </kbd></summary>
 <br>
 We are a company that produces high-end electric skateboards, and we are considering entering the German market. Please prepare a detailed market entry feasibility report for me. The report needs to cover the following aspects:
 1. Market Size & Regulations: Research the market size, annual growth rate, key players, and market share for Personal Light Electric Vehicles (PLEVs) in Germany. Simultaneously, provide a detailed breakdown and summary of German laws and regulations concerning the use of electric skateboards on public roads, including certification requirements (such as ABE certification) and insurance policies.
@@ -244,9 +238,9 @@ We are a company that produces high-end electric skateboards, and we are conside
 ### 5. SEO Audit for Workforce Multiagent Launch [Replay ▶️](https://www.hangent.com/download?share_token=IjE3NTM2OTk5NzExNDQtNTY5NiI.aIex0w.jc_NIPmfIf9e3zGt-oG9fbMi3K4__1753699971144-5696)
 
 <details>
-<summary><strong>Prompt:</strong> <kbd>To support the launch of our new Workforce Multiagent product ... <kbd></summary>
+<summary><strong>Prompt:</strong> <kbd>To support the launch of our new Workforce Multiagent product ... </kbd></summary>
 <br>
-To support the launch of our new Workforce Multiagent product, please run a thorough SEO audit on our official website (https://www.camel-ai.org/) and deliver a detailed optimization report with actionable recommendations.
+To support the launch of our new Workforce Multiagent product, please run a thorough SEO audit on our official website (https://www.hangent.com) and deliver a detailed optimization report with actionable recommendations.
 </details>
 
 <br>
@@ -254,7 +248,7 @@ To support the launch of our new Workforce Multiagent product, please run a thor
 ### 6. Identify Duplicate Files in Downloads [Replay ▶️](https://www.hangent.com/download?share_token=IjE3NTM3NjAzODgxNzEtMjQ4Ig.aIhKLQ.epOG--0Nj0o4Bqjtdqm9OZdaqRQ__1753760388171-248)
 
 <details>
-<summary><strong>Prompt:</strong> <kbd>I have a folder named mydocs inside my Documents directory ... <kbd></summary>
+<summary><strong>Prompt:</strong> <kbd>I have a folder named mydocs inside my Documents directory ... </kbd></summary>
 <br>
 I have a folder named mydocs inside my Documents directory. Please scan it and identify all files that are exact or near duplicates — including those with identical content, file size, or format (even if file names or extensions differ). List them clearly, grouped by similarity.
 </details>
@@ -264,7 +258,7 @@ I have a folder named mydocs inside my Documents directory. Please scan it and i
 ### 7. Add Signature to PDF [Replay ▶️](https://www.hangent.com/download?share_token=IjE3NTQwOTU0ODM0NTItNTY2MSI.aJCHrA.Mg5yPOFqj86H_GQvvRNditzepXc__1754095483452-5661)
 
 <details>
-<summary><strong>Prompt:</strong> <kbd>Please add this signature image to the Signature Areas in the PDF ... <kbd></summary>
+<summary><strong>Prompt:</strong> <kbd>Please add this signature image to the Signature Areas in the PDF ... </kbd></summary>
 <br>
 Please add this signature image to the Signature Areas in the PDF. You could install the CLI tool ‘tesseract’ (needed for reliable location of ‘Signature Areas’ via OCR) to help finish this task.
 </details>
@@ -325,9 +319,6 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 <br>
 
-## [❤️ Sponsor][sponsor-link]
-
-Hanggent is built on top of [CAMEL-AI.org][camel-ai-org-github]'s research and infrastructures. [Sponsoring CAMEL-AI.org][sponsor-link] will make `Hanggent` better.
 
 ## **📄 Open Source License**
 
@@ -355,27 +346,13 @@ For more information please contact info@hanggent.ai
 [discord-url]: https://discord.com/invite/CNcNpquyDc
 [discord-image]: https://img.shields.io/discord/1082486657678311454?logo=discord&labelColor=%20%235462eb&logoColor=%20%23f5f5f5&color=%20%235462eb
 
-[built-with-camel]:https://img.shields.io/badge/-Built--with--CAMEL-4C19E8.svg?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ4IiBoZWlnaHQ9IjI3MiIgdmlld0JveD0iMCAwIDI0OCAyNzIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik04LjgzMTE3IDE4LjU4NjVMMCAzMC44MjY3QzUuNDY2OTIgMzUuMDQzMiAxNS4xMzkxIDM4LjgyNTggMjQuODExNCAzNi4yOTU5QzMwLjY5ODggNDAuOTM0MSAzOS42NzAyIDQwLjIzMTMgNDQuMTU1OSA0MC4wOTA4QzQzLjQ1NSA0Ny4zOTk0IDQyLjQ3MzcgNzAuOTU1OCA0NC4xNTU5IDEwNi43MTJDNDUuODM4IDE0Mi40NjggNzEuNzcwOCAxNjYuODY4IDg0LjUyNjkgMTc0LjU5OEw3Ni4wMDAyIDIyMEw4NC41MjY5IDI3MkgxMDguOTE4TDk4LjAwMDIgMjIwTDEwOC45MTggMTc0LjU5OEwxMjkuOTQ0IDI3MkgxNTQuNzU2TDEzNC4xNSAxNzQuNTk4SDE4Ny4xMzdMMTY2LjUzMSAyNzJIMTkxLjc2M0wyMTIuMzY5IDE3NC41OThMMjI2IDIyMEwyMTIuMzY5IDI3MkgyMzcuNjAxTDI0OC4wMDEgMjIwTDIzNy4xOCAxNzQuNTk4QzIzOS4yODMgMTY5LjExNyAyNDAuNDAxIDE2Ni45NzYgMjQxLjgwNiAxNjEuMTA1QzI0OS4zNzUgMTI5LjQ4MSAyMzUuMDc3IDEwMy45MDEgMjI2LjY2NyA5NC40ODRMMjA2LjQ4MSA3My44MjNDMTk3LjY1IDY0Ljk2ODMgMTgyLjUxMSA2NC41NDY3IDE3Mi44MzkgNzIuNTU4MUMxNjUuNzI4IDc4LjQ0NzcgMTYxLjcwMSA3OC43NzI3IDE1NC43NTYgNzIuNTU4MUMxNTEuODEyIDcwLjAyODEgMTQ0LjUzNSA2MS40ODg5IDEzNC45OTEgNTMuNTgzN0MxMjUuMzE5IDQ1LjU3MjMgMTA4LjQ5NyA0OC45NDU1IDEwMi4xODkgNTUuNjkxOUw3My41OTMxIDg0LjM2NDRWNy42MjM0OUw3OS4xMjczIDBDNjAuOTA0MiAzLjY1NDMzIDIzLjgwMjEgOS41NjMwOSAxOS43NjUgMTAuNTc1MUMxNS43Mjc5IDExLjU4NyAxMC43OTM3IDE2LjMzNzcgOC44MzExNyAxOC41ODY1WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTQzLjIwMzggMTguNzE4N0w0OS4wOTEyIDEzLjA0OTNMNTQuOTc4NyAxOC43MTg3TDQ5LjA5MTIgMjQuODI0Mkw0My4yMDM4IDE4LjcxODdaIiBmaWxsPSIjNEMxOUU4Ii8+Cjwvc3ZnPgo=
-
 [hanggent-github]: https://github.com/hanggent-ai/hanggent
 [github-star]: https://img.shields.io/github/stars/hanggent-ai?color=F5F4F0&labelColor=gray&style=plastic&logo=github
-[camel-ai-org-github]: https://github.com/camel-ai
 
-[camel-github]: https://github.com/camel-ai/camel
-[hanggent-github]: https://github.com/hanggent-ai/hanggent
 [contribution-link]: https://github.com/hanggent-ai/hanggent/blob/main/CONTRIBUTING.md
 
 [social-x-link]: https://x.com/Hanggent_AI
 [social-x-shield]: https://img.shields.io/badge/-%40Hanggent_AI-white?labelColor=gray&logo=x&logoColor=white&style=plastic
-
-[reddit-url]: https://www.reddit.com/r/CamelAI/
-[reddit-image]: https://img.shields.io/reddit/subreddit-subscribers/CamelAI?style=plastic&logo=reddit&label=r%2FCAMEL&labelColor=white
-
-[wechat-url]: https://ghli.org/camel/wechat.png
-[wechat-image]: https://img.shields.io/badge/WeChat-CamelAIOrg-brightgreen?logo=wechat&logoColor=white
-
-[sponsor-link]: https://github.com/sponsors/camel-ai
-[sponsor-shield]: https://img.shields.io/badge/-Sponsor%20CAMEL--AI-1d1d1d?logo=github&logoColor=white&style=plastic
 
 [hanggent-download]: https://www.hangent.com/download
 [download-shield]: https://img.shields.io/badge/Download%20Hanggent-363AF5?style=plastic
@@ -383,8 +360,6 @@ For more information please contact info@hanggent.ai
 [join-us]:https://hanggent-ai.notion.site/hanggent-ai-careers
 [join-us-image]:https://img.shields.io/badge/Join%20Us-yellow?style=plastic
 
-<!-- camel & hanggent -->
-[camel-site]: https://www.camel-ai.org
 [hanggent-site]: https://www.hangent.com
 [docs-site]: https://docs.hanggent.ai
 [github-issue-link]: https://github.com/hanggent-ai/hanggent/issues
@@ -396,7 +371,7 @@ For more information please contact info@hanggent.ai
 [image-star-us]: https://hanggent-ai.github.io/.github/assets/star-us.gif
 [image-opensource]: https://hanggent-ai.github.io/.github/assets/opensource.png
 [image-wechat]: https://hanggent-ai.github.io/.github/assets/wechat.png
-[image-join-us]: https://camel-ai.github.io/camel_asset/graphics/join_us.png
+[image-join-us]: https://hanggent-ai.github.io/.github/assets/join_us.png
 
 <!-- feature -->
 [image-workforce]: https://hanggent-ai.github.io/.github/assets/feature_dynamic_workforce.gif

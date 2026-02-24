@@ -12,10 +12,6 @@
 [![][github-star]][hanggent-github]
 [![][social-x-shield]][social-x-link]
 [![][discord-image]][discord-url]<br>
-[![Reddit][reddit-image]][reddit-url]
-[![Wechat][wechat-image]][wechat-url]
-[![][sponsor-shield]][sponsor-link]
-[![][built-with-camel]][camel-github]
 [![][join-us-image]][join-us]
 
 </div>
@@ -30,7 +26,7 @@
 
 **Hanggent**は、オープンソースのコワークデスクトップアプリケーションです。複雑なワークフローを自動化タスクに変換できるカスタムAIワークフォースを構築、管理、デプロイする力を提供します。
 
-[CAMEL-AI][camel-site]の評価の高いオープンソースプロジェクトを基盤として構築されており、**マルチエージェントワークフォース**を導入し、並列実行、カスタマイズ、プライバシー保護を通じて**生産性を向上**させます。
+**マルチエージェントワークフォース**を導入し、並列実行、カスタマイズ、プライバシー保護を通じて**生産性を向上**させます。
 
 ### ⭐ 100%オープンソース - 🥇 ローカルデプロイメント - 🏆 MCP統合
 
@@ -137,7 +133,7 @@ npm run dev
 [![image-public-beta]][hanggent-download]
 
 <div align="right">
-<a href="https://www.hangent.com/download">Hanggent.aiで始める →</a>
+<a href="https://www.hangent.com/download">Hangent.comで始める →</a>
 </div>
 
 ## **✨ 主な機能**
@@ -237,7 +233,7 @@ Hanggentは完全にオープンソースです。コードをダウンロード
 <details>
 <summary><strong>プロンプト:</strong> <kbd>新しいWorkforce Multiagent製品のローンチをサポートするために...</kbd></summary>
 <br>
-新しいWorkforce Multiagent製品のローンチをサポートするために、公式ウェブサイト（https://www.camel-ai.org/）で徹底的なSEO監査を実行し、実行可能な推奨事項を含む詳細な最適化レポートを提供してください。
+新しいWorkforce Multiagent製品のローンチをサポートするために、公式ウェブサイト（https://www.hangent.com）で徹底的なSEO監査を実行し、実行可能な推奨事項を含む詳細な最適化レポートを提供してください。
 </details>
 
 <br>
@@ -315,10 +311,6 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 <br>
 
-## [❤️ スポンサー][sponsor-link]
-
-Hanggentは[CAMEL-AI.org][camel-ai-org-github]の研究とインフラストラクチャの上に構築されています。[CAMEL-AI.orgをスポンサー][sponsor-link]することで`Hanggent`がより良くなります。
-
 ## **📄 オープンソースライセンス**
 
 このリポジトリは[Apache License 2.0](LICENSE)の下でライセンスされています。
@@ -345,27 +337,13 @@ Hanggentは[CAMEL-AI.org][camel-ai-org-github]の研究とインフラストラ�
 [discord-url]: https://discord.com/invite/CNcNpquyDc
 [discord-image]: https://img.shields.io/discord/1082486657678311454?logo=discord&labelColor=%20%235462eb&logoColor=%20%23f5f5f5&color=%20%235462eb
 
-[built-with-camel]:https://img.shields.io/badge/-Built--with--CAMEL-4C19E8.svg?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ4IiBoZWlnaHQ9IjI3MiIgdmlld0JveD0iMCAwIDI0OCAyNzIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik04LjgzMTE3IDE4LjU4NjVMMCAzMC44MjY3QzUuNDY2OTIgMzUuMDQzMiAxNS4xMzkxIDM4LjgyNTggMjQuODExNCAzNi4yOTU5QzMwLjY5ODggNDAuOTM0MSAzOS42NzAyIDQwLjIzMTMgNDQuMTU1OSA0MC4wOTA4QzQzLjQ1NSA0Ny4zOTk0IDQyLjQ3MzcgNzAuOTU1OCA0NC4xNTU5IDEwNi43MTJDNDUuODM4IDE0Mi40NjggNzEuNzcwOCAxNjYuODY4IDg0LjUyNjkgMTc0LjU5OEw3Ni4wMDAyIDIyMEw4NC41MjY5IDI3MkgxMDguOTE4TDk4LjAwMDIgMjIwTDEwOC45MTggMTc0LjU5OEwxMjkuOTQ0IDI3MkgxNTQuNzU2TDEzNC4xNSAxNzQuNTk4SDE4Ny4xMzdMMTY2LjUzMSAyNzJIMTkxLjc2M0wyMTIuMzY5IDE3NC41OThMMjI2IDIyMEwyMTIuMzY5IDI3MkgyMzcuNjAxTDI0OC4wMDEgMjIwTDIzNy4xOCAxNzQuNTk4QzIzOS4yODMgMTY5LjExNyAyNDAuNDAxIDE2Ni45NzYgMjQxLjgwNiAxNjEuMTA1QzI0OS4zNzUgMTI5LjQ4MSAyMzUuMDc3IDEwMy45MDEgMjI2LjY2NyA5NC40ODRMMjA2LjQ4MSA3My44MjNDMTk3LjY1IDY0Ljk2ODMgMTgyLjUxMSA2NC41NDY3IDE3Mi44MzkgNzIuNTU4MUMxNjUuNzI4IDc4LjQ0NzcgMTYxLjcwMSA3OC43NzI3IDE1NC43NTYgNzIuNTU4MUMxNTEuODEyIDcwLjAyODEgMTQ0LjUzNSA2MS40ODg5IDEzNC45OTEgNTMuNTgzN0MxMjUuMzE5IDQ1LjU3MjMgMTA4LjQ5NyA0OC45NDU1IDEwMi4xODkgNTUuNjkxOUw3My41OTMxIDg0LjM2NDRWNy42MjM0OUw3OS4xMjczIDBDNjAuOTA0MiAzLjY1NDMzIDIzLjgwMjEgOS41NjMwOSAxOS43NjUgMTAuNTc1MUMxNS43Mjc5IDExLjU4NyAxMC43OTM3IDE2LjMzNzcgOC44MzExNyAxOC41ODY1WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTQzLjIwMzggMTguNzE4N0w0OS4wOTEyIDEzLjA0OTNMNTQuOTc4NyAxOC43MTg3TDQ5LjA5MTIgMjQuODI0Mkw0My4yMDM4IDE4LjcxODdaIiBmaWxsPSIjNEMxOUU4Ii8+Cjwvc3ZnPgo=
-
 [hanggent-github]: https://github.com/hanggent-ai/hanggent
 [github-star]: https://img.shields.io/github/stars/hanggent-ai?color=F5F4F0&labelColor=gray&style=plastic&logo=github
-[camel-ai-org-github]: https://github.com/camel-ai
 
-[camel-github]: https://github.com/camel-ai/camel
-[hanggent-github]: https://github.com/hanggent-ai/hanggent
 [contribution-link]: https://github.com/hanggent-ai/hanggent/blob/main/CONTRIBUTING.md
 
 [social-x-link]: https://x.com/Hanggent_AI
 [social-x-shield]: https://img.shields.io/badge/-%40Hanggent_AI-white?labelColor=gray&logo=x&logoColor=white&style=plastic
-
-[reddit-url]: https://www.reddit.com/r/CamelAI/
-[reddit-image]: https://img.shields.io/reddit/subreddit-subscribers/CamelAI?style=plastic&logo=reddit&label=r%2FCAMEL&labelColor=white
-
-[wechat-url]: https://ghli.org/camel/wechat.png
-[wechat-image]: https://img.shields.io/badge/WeChat-CamelAIOrg-brightgreen?logo=wechat&logoColor=white
-
-[sponsor-link]: https://github.com/sponsors/camel-ai
-[sponsor-shield]: https://img.shields.io/badge/-Sponsor%20CAMEL--AI-1d1d1d?logo=github&logoColor=white&style=plastic
 
 [hanggent-download]: https://www.hangent.com/download
 [download-shield]: https://img.shields.io/badge/Download%20Hanggent-363AF5?style=plastic
@@ -373,8 +351,6 @@ Hanggentは[CAMEL-AI.org][camel-ai-org-github]の研究とインフラストラ�
 [join-us]:https://hanggent-ai.notion.site/hanggent-ai-careers
 [join-us-image]:https://img.shields.io/badge/Join%20Us-yellow?style=plastic
 
-<!-- camel & hanggent -->
-[camel-site]: https://www.camel-ai.org
 [hanggent-site]: https://www.hangent.com
 [docs-site]: https://docs.hanggent.ai
 [github-issue-link]: https://github.com/hanggent-ai/hanggent/issues
@@ -386,7 +362,7 @@ Hanggentは[CAMEL-AI.org][camel-ai-org-github]の研究とインフラストラ�
 [image-star-us]: https://hanggent-ai.github.io/.github/assets/star-us.gif
 [image-opensource]: https://hanggent-ai.github.io/.github/assets/opensource.png
 [image-wechat]: https://hanggent-ai.github.io/.github/assets/wechat.png
-[image-join-us]: https://camel-ai.github.io/camel_asset/graphics/join_us.png
+[image-join-us]: https://hanggent-ai.github.io/.github/assets/join_us.png
 
 <!-- feature -->
 [image-workforce]: https://hanggent-ai.github.io/.github/assets/feature_dynamic_workforce.gif
