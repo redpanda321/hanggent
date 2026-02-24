@@ -1,0 +1,17 @@
+{
+  "_comment": "Copy this file to api_keys.json and fill in real API keys. api_keys.json is gitignored.",
+  "hanggent": "",
+  "openai": "sk-xxx",
+  "anthropic": "sk-ant-xxx",
+  "google": "xxx",
+  "azure": "",
+  "groq": "gsk_xxx",
+  "deepseek": "sk-xxx",
+  "openrouter": "sk-or-xxx",
+  "together": "xxx",
+  "minimax": "xxx",
+  "kimi": "xxx",
+  "z-ai": "xxx",
+  "qwen": "sk-xxx",
+  "xai": "xai-xxx"
+}

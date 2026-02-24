@@ -1,0 +1,7 @@
+[
+  {
+    "key": "additional_fee_percent",
+    "value": "5",
+    "description": "Global additional fee percentage applied on top of base model token costs for Hanggent cloud models"
+  }
+]

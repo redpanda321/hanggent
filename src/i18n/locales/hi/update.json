@@ -1,0 +1,11 @@
+{
+  "update-check-failed": "अपडेट जाँच विफल",
+  "new-version-available": "नया संस्करण उपलब्ध",
+  "download": "डाउनलोड",
+  "update-error": "अपडेट त्रुटि",
+  "downloading-update": "अपडेट डाउनलोड हो रहा है",
+  "complete": "पूर्ण",
+  "download-completed": "डाउनलोड पूरा हुआ",
+  "click-to-install-update": "अपडेट इंस्टॉल करने के लिए क्लिक करें",
+  "install": "इंस्टॉल करें"
+}

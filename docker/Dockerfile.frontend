@@ -1,0 +1,57 @@
+# Frontend Dockerfile
+FROM node:20-alpine AS builder
+
+WORKDIR /app
+
+# Copy package files and local dependencies
+COPY package.json pnpm-lock.yaml* package-lock.json* yarn.lock* ./
+COPY package/ ./package/
+
+# Install dependencies - pin pnpm version to avoid corepack registry issues
+RUN corepack enable && \
+    corepack prepare pnpm@9.15.0 --activate && \
+    if [ -f pnpm-lock.yaml ]; then pnpm install --frozen-lockfile; \
+    elif [ -f yarn.lock ]; then yarn install --frozen-lockfile; \
+    else npm install; fi
+
+# Copy source files
+COPY . .
+
+# Build arguments for environment variables
+ARG VITE_API_URL
+ARG VITE_BASE_URL
+ARG VITE_EDITION=community
+ARG VITE_CLERK_PUBLISHABLE_KEY
+ARG VITE_CLERK_PROXY_URL=https://clerk.hangent.com
+ARG VITE_CLERK_JS_URL=https://cdn.jsdelivr.net/npm/@clerk/clerk-js@5/dist/clerk.browser.js
+
+# Build the web app (not Electron build which needs Python/uv)
+RUN if [ -f pnpm-lock.yaml ]; then \
+            VITE_API_URL=$VITE_API_URL VITE_BASE_URL=$VITE_BASE_URL VITE_EDITION=$VITE_EDITION VITE_CLERK_PUBLISHABLE_KEY=$VITE_CLERK_PUBLISHABLE_KEY VITE_CLERK_PROXY_URL=$VITE_CLERK_PROXY_URL VITE_CLERK_JS_URL=$VITE_CLERK_JS_URL pnpm run build:web; \
+        elif [ -f yarn.lock ]; then \
+            VITE_API_URL=$VITE_API_URL VITE_BASE_URL=$VITE_BASE_URL VITE_EDITION=$VITE_EDITION VITE_CLERK_PUBLISHABLE_KEY=$VITE_CLERK_PUBLISHABLE_KEY VITE_CLERK_PROXY_URL=$VITE_CLERK_PROXY_URL VITE_CLERK_JS_URL=$VITE_CLERK_JS_URL yarn build:web; \
+        else \
+            VITE_API_URL=$VITE_API_URL VITE_BASE_URL=$VITE_BASE_URL VITE_EDITION=$VITE_EDITION VITE_CLERK_PUBLISHABLE_KEY=$VITE_CLERK_PUBLISHABLE_KEY VITE_CLERK_PROXY_URL=$VITE_CLERK_PROXY_URL VITE_CLERK_JS_URL=$VITE_CLERK_JS_URL npm run build:web; \
+        fi
+
+# Production stage
+FROM nginx:alpine
+
+# Copy nginx config
+COPY docker/nginx.conf /etc/nginx/nginx.conf
+
+# Generate runtime env.js on container start (official nginx entrypoint runs /docker-entrypoint.d/*)
+COPY docker/runtime-env.sh /docker-entrypoint.d/99-runtime-env.sh
+RUN chmod +x /docker-entrypoint.d/99-runtime-env.sh
+
+# Copy built files (build:web outputs to dist-web)
+COPY --from=builder /app/dist-web /usr/share/nginx/html
+
+# Expose port
+EXPOSE 80
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+    CMD wget --no-verbose --tries=1 --spider http://localhost/ || exit 1
+
+CMD ["nginx", "-g", "daemon off;"]

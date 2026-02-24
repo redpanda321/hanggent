@@ -1,0 +1,39 @@
+{
+  "opencode": {
+    "enabled": true,
+    "port": 4096,
+    "url": "http://localhost:4096",
+    "healthEndpoint": "/health",
+    "startupTimeoutMs": 15000,
+    "restartOnCrash": true,
+    "maxRestarts": 3,
+    "command": "opencode",
+    "args": ["serve"],
+    "env": {
+      "OPENCODE_SERVER_MODE": "headless",
+      "OPENCODE_CORS_ORIGINS": "http://localhost:5173,http://localhost:5174,app://."
+    }
+  },
+  "openclaw": {
+    "enabled": true,
+    "port": 18789,
+    "url": "http://localhost:18789",
+    "healthEndpoint": "/health",
+    "startupTimeoutMs": 20000,
+    "restartOnCrash": true,
+    "maxRestarts": 3,
+    "command": "openclaw",
+    "args": ["gateway"],
+    "env": {
+      "OPENCLAW_AUTH_TOKEN": "",
+      "OPENCLAW_CONTROL_UI_BASE_PATH": "/",
+      "OPENCLAW_GATEWAY_MODE": "standalone"
+    }
+  },
+  "logging": {
+    "streamToViewer": true,
+    "maxBufferLines": 1000,
+    "persistToFile": true,
+    "logDir": "~/.hanggent/logs"
+  }
+}

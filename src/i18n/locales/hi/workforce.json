@@ -1,0 +1,20 @@
+{
+  "your-ai-workforce": "आपकी AI वर्कफ़ोर्स",
+  "new-worker": "नया वर्कर एजेंट",
+  "edit": "संपादित करें",
+  "configure-mcp-server": "MCP सर्वर कॉन्फ़िगर करें",
+  "add-your-agent": "अपना एजेंट जोड़ें",
+  "cancel": "रद्द करें",
+  "save-changes": "परिवर्तन सहेजें",
+  "description-optional": "विवरण (वैकल्पिक)",
+  "agent-tool": "एजेंट टूल",
+  "share": "साझा करें",
+  "advanced-model-config": "उन्नत मॉडल कॉन्फ़िगरेशन",
+  "use-custom-model": "कस्टम मॉडल कॉन्फ़िगरेशन का उपयोग करें",
+  "model-platform": "मॉडल प्लेटफ़ॉर्म",
+  "select-platform": "प्लेटफ़ॉर्म चुनें",
+  "model-type": "मॉडल प्रकार",
+  "model-type-placeholder": "उदा., gpt-4o-mini",
+  "worker-name-cannot-be-empty": "वर्कर का नाम खाली नहीं हो सकता",
+  "worker-name-already-exists": "वर्कर का नाम पहले से मौजूद है"
+}

@@ -1,0 +1,38 @@
+# Node
+node_modules/
+dist/
+dist-electron/
+dist-web/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime
+browser_log/
+context_files/
+.resume_cache/
+runtime/run.pid
+
+# Prebuilt binaries (too large for GitHub)
+resources/prebuilt/
+

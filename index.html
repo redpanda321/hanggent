@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			http-equiv="Content-Security-Policy"
+			content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.clerk.accounts.dev https://*.clerk.com https://clerk.hangent.com https://challenges.cloudflare.com https://cdn.amplitude.com https://*.amplitude.com https://cdn.jsdelivr.net https://js.stripe.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob: https://*.clerk.com https://*.gravatar.com https://img.clerk.com; connect-src 'self' http://localhost:* ws://localhost:* https://*.hangent.com wss://*.hangent.com https://*.clerk.accounts.dev https://*.clerk.com wss://*.clerk.com https://api.stripe.com https://*.amplitude.com https://api2.amplitude.com; frame-src 'self' https://*.clerk.accounts.dev https://*.clerk.com https://challenges.cloudflare.com https://js.stripe.com localfile: blob: data:; worker-src 'self' blob:; child-src 'self' blob:;"
+		/>
+		<script src="https://cdn.amplitude.com/libs/analytics-browser-2.11.1-min.js.gz"></script><script src="https://cdn.amplitude.com/libs/plugin-session-replay-browser-1.8.0-min.js.gz"></script><script>if(window.__ENV__&&window.__ENV__.VITE_AMPLITUDE_KEY){window.amplitude.add(window.sessionReplay.plugin({sampleRate: 1}));window.amplitude.init(window.__ENV__.VITE_AMPLITUDE_KEY, {"autocapture":{"elementInteractions":true}});}</script>
+		<title>Hanggent</title>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script src="/env.js"></script>
+		<script type="module" src="/src/main.tsx"></script>
+	</body>
+</html>

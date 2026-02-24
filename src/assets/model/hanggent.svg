@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <!-- Hanggent Cloud model icon — 夯 on dark squircle -->
+  <rect width="80" height="80" rx="18" ry="18" fill="#1D1D1D"/>
+  <text x="40" y="58"
+        font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif"
+        font-size="50"
+        font-weight="bold"
+        fill="white"
+        text-anchor="middle"
+        dominant-baseline="alphabetic">夯</text>
+</svg>

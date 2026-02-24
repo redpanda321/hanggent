@@ -1,0 +1,65 @@
+# Backend Dockerfile (Browser Automation Service)
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Put uv-managed Python/caches somewhere readable at runtime (not under /root)
+ENV XDG_DATA_HOME=/opt/uv/xdg \
+    XDG_CACHE_HOME=/opt/uv/cache \
+    UV_PYTHON_PREFERENCE=only-system \
+    UV_PYTHON_DOWNLOADS=never
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN mkdir -p /opt/uv/xdg /opt/uv/cache
+
+# Install UV for faster package management
+RUN pip install --no-cache-dir uv
+
+# Copy dependency files
+COPY backend/pyproject.toml backend/uv.lock ./
+
+# Create a project virtual environment using the system Python
+RUN uv venv --python /usr/local/bin/python
+
+# Install dependencies (without installing the project yet)
+RUN uv sync --frozen --no-install-project --no-dev
+
+# Copy application code
+COPY backend/ ./
+
+# Remove .python-version to avoid uv trying to match an exact patch version
+RUN rm -f .python-version
+
+# Copy shared utils
+COPY utils/ ./utils/
+
+# Install the project into the environment
+RUN uv sync --frozen --no-dev
+
+# Ensure uv-managed Python (if used) is readable by the non-root runtime user
+RUN chmod -R a+rX /opt/uv
+
+# Create non-root user
+RUN useradd -m -u 1000 appuser && \
+    chown -R appuser:appuser /app
+USER appuser
+
+# Environment variables
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PORT=8000
+
+# Prefer the project's virtual environment
+ENV PATH="/app/.venv/bin:$PATH"
+
+EXPOSE 8000
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=15s --retries=3 \
+    CMD curl -f http://localhost:8000/health || exit 1
+
+CMD ["python", "-m", "uvicorn", "main:api", "--host", "0.0.0.0", "--port", "8000"]
